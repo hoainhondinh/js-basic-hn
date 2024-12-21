@@ -6,7 +6,7 @@ let sum = (a, b, callback) => {
     let tong = a + b;
     // setTimeout(() => {
     //     callback(tong);
-    // }, 2000);
+    // }, 2000); //ms
     let i = 0;
     let timer = setInterval(() => {
         callback(tong);
